@@ -1,0 +1,5 @@
+D:\GitHub\EportCardCenter\dependent\CardCenter.DataAccess\bin\Debug\CardCenter.DataAccess.dll
+D:\GitHub\EportCardCenter\dependent\CardCenter.DataAccess\bin\Debug\CardCenter.DataAccess.pdb
+D:\GitHub\EportCardCenter\dependent\CardCenter.DataAccess\obj\Debug\CardCenter.DataAccess.csproj.CoreCompileInputs.cache
+D:\GitHub\EportCardCenter\dependent\CardCenter.DataAccess\obj\Debug\CardCenter.DataAccess.dll
+D:\GitHub\EportCardCenter\dependent\CardCenter.DataAccess\obj\Debug\CardCenter.DataAccess.pdb

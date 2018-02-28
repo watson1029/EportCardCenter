@@ -1,0 +1,6 @@
+D:\GitHub\EportCardCenter\dependent\CardCenter.PageBase\bin\Debug\CardCenter.PageBase.dll
+D:\GitHub\EportCardCenter\dependent\CardCenter.PageBase\bin\Debug\CardCenter.PageBase.pdb
+D:\GitHub\EportCardCenter\dependent\CardCenter.PageBase\obj\Debug\CardCenter.PageBase.csprojResolveAssemblyReference.cache
+D:\GitHub\EportCardCenter\dependent\CardCenter.PageBase\obj\Debug\CardCenter.PageBase.csproj.CoreCompileInputs.cache
+D:\GitHub\EportCardCenter\dependent\CardCenter.PageBase\obj\Debug\CardCenter.PageBase.dll
+D:\GitHub\EportCardCenter\dependent\CardCenter.PageBase\obj\Debug\CardCenter.PageBase.pdb
