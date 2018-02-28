@@ -1,22 +1,18 @@
 电子口岸业务卡在线办理系统
 =====
-### 客户端
-src/CardCerter
-### 管理端
-src/CardCenterManagement
-### 数据整理
-src/AutoTask
-### 数据连接层
-dependent/CardCenter.CommercialAffairsOracleDataAccess
-
-dependent/CardCenter.DataAccess
-### 实体层
-dependent/CardCenter.Entity
-### 页面基类
-dependent/CardCenter.PageBase
-### 系统服务
-dependent/CardCenter.Service
-
+### 更新日志
+[TODO.md](TODO.md)
+### 解决方案
+* 主程序
+  * 客户端 src/CardCerter
+  * 管理端 src/CardCenter.Management
+  * 接口服务 src/CardCenter.API
+  * 数据整理 src/CardCenter.AutoTask
+* 依赖项目
+  * 商事数据连接（Oracle） dependent/CardCenter.CommercialAffairsOracleDataAccess
+  * 数据连接 dependent/CardCenter.DataAccess
+  * 数据实体 dependent/CardCenter.Entity
+  * 页面基类 dependent/CardCenter.PageBase
 ---
 ## 安装调试
 1. 安装 FrameWork3.5 [https://dotnet.github.io/](https://dotnet.github.io/)
