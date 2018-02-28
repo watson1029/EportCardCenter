@@ -8,6 +8,7 @@ src/CardCenterManagement
 src/AutoTask
 ### 数据连接层
 dependent/CardCenter.CommercialAffairsOracleDataAccess
+
 dependent/CardCenter.DataAccess
 ### 实体层
 dependent/CardCenter.Entity
