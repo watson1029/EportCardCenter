@@ -1,5 +1,0 @@
-D:\GitHub\EportCardCenter\OracleTest\bin\Debug\OracleTest.exe
-D:\GitHub\EportCardCenter\OracleTest\bin\Debug\OracleTest.pdb
-D:\GitHub\EportCardCenter\OracleTest\obj\Debug\OracleTest.csproj.CoreCompileInputs.cache
-D:\GitHub\EportCardCenter\OracleTest\obj\Debug\OracleTest.exe
-D:\GitHub\EportCardCenter\OracleTest\obj\Debug\OracleTest.pdb
