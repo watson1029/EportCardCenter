@@ -1,0 +1,7 @@
+D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.Management.dll.config
+D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.Management.dll
+D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.Management.pdb
+D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.csprojResolveAssemblyReference.cache
+D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.csproj.CoreCompileInputs.cache
+D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.dll
+D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.pdb

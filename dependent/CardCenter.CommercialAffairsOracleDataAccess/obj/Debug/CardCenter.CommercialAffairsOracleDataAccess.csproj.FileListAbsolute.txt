@@ -3,3 +3,5 @@ D:\GitHub\EportCardCenter\dependent\CardCenter.CommercialAffairsOracleDataAccess
 D:\GitHub\EportCardCenter\dependent\CardCenter.CommercialAffairsOracleDataAccess\obj\Debug\CardCenter.CommercialAffairsOracleDataAccess.csproj.CoreCompileInputs.cache
 D:\GitHub\EportCardCenter\dependent\CardCenter.CommercialAffairsOracleDataAccess\obj\Debug\CardCenter.CommercialAffairsOracleDataAccess.dll
 D:\GitHub\EportCardCenter\dependent\CardCenter.CommercialAffairsOracleDataAccess\obj\Debug\CardCenter.CommercialAffairsOracleDataAccess.pdb
+D:\GitHub\EportCardCenter\dependent\CardCenter.CommercialAffairsOracleDataAccess\bin\Debug\ZWL.dll
+D:\GitHub\EportCardCenter\dependent\CardCenter.CommercialAffairsOracleDataAccess\obj\Debug\CardCenter.CommercialAffairsOracleDataAccess.csprojResolveAssemblyReference.cache

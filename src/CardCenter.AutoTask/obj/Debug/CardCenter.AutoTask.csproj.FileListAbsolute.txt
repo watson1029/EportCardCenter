@@ -1,0 +1,5 @@
+D:\GitHub\EportCardCenter\src\CardCenter.AutoTask\bin\Debug\CardCenter.AutoTask.exe
+D:\GitHub\EportCardCenter\src\CardCenter.AutoTask\bin\Debug\CardCenter.AutoTask.pdb
+D:\GitHub\EportCardCenter\src\CardCenter.AutoTask\obj\Debug\CardCenter.AutoTask.csproj.CoreCompileInputs.cache
+D:\GitHub\EportCardCenter\src\CardCenter.AutoTask\obj\Debug\CardCenter.AutoTask.exe
+D:\GitHub\EportCardCenter\src\CardCenter.AutoTask\obj\Debug\CardCenter.AutoTask.pdb

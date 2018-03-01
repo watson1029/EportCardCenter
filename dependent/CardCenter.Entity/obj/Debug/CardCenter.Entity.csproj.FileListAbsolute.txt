@@ -1,7 +1,6 @@
 D:\GitHub\EportCardCenter\dependent\CardCenter.Entity\bin\Debug\CardCenter.Entity.dll
 D:\GitHub\EportCardCenter\dependent\CardCenter.Entity\bin\Debug\CardCenter.Entity.pdb
 D:\GitHub\EportCardCenter\dependent\CardCenter.Entity\bin\Debug\Job.Entity.dll
-D:\GitHub\EportCardCenter\dependent\CardCenter.Entity\obj\Debug\CardCenter.Entity.csprojResolveAssemblyReference.cache
 D:\GitHub\EportCardCenter\dependent\CardCenter.Entity\obj\Debug\CardCenter.Entity.csproj.CoreCompileInputs.cache
 D:\GitHub\EportCardCenter\dependent\CardCenter.Entity\obj\Debug\CardCenter.Entity.dll
 D:\GitHub\EportCardCenter\dependent\CardCenter.Entity\obj\Debug\CardCenter.Entity.pdb

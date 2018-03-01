@@ -1,0 +1,11 @@
+D:\GitHub\EportCardCenter\src\CardCenter.API\bin\Debug\netcoreapp2.0\CardCenter.API.deps.json
+D:\GitHub\EportCardCenter\src\CardCenter.API\bin\Debug\netcoreapp2.0\CardCenter.API.runtimeconfig.json
+D:\GitHub\EportCardCenter\src\CardCenter.API\bin\Debug\netcoreapp2.0\CardCenter.API.runtimeconfig.dev.json
+D:\GitHub\EportCardCenter\src\CardCenter.API\bin\Debug\netcoreapp2.0\CardCenter.API.dll
+D:\GitHub\EportCardCenter\src\CardCenter.API\bin\Debug\netcoreapp2.0\CardCenter.API.pdb
+D:\GitHub\EportCardCenter\src\CardCenter.API\obj\Debug\netcoreapp2.0\CardCenter.API.csprojResolveAssemblyReference.cache
+D:\GitHub\EportCardCenter\src\CardCenter.API\obj\Debug\netcoreapp2.0\CardCenter.API.csproj.CoreCompileInputs.cache
+D:\GitHub\EportCardCenter\src\CardCenter.API\obj\Debug\netcoreapp2.0\CardCenter.API.AssemblyInfoInputs.cache
+D:\GitHub\EportCardCenter\src\CardCenter.API\obj\Debug\netcoreapp2.0\CardCenter.API.AssemblyInfo.cs
+D:\GitHub\EportCardCenter\src\CardCenter.API\obj\Debug\netcoreapp2.0\CardCenter.API.dll
+D:\GitHub\EportCardCenter\src\CardCenter.API\obj\Debug\netcoreapp2.0\CardCenter.API.pdb
