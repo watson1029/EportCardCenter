@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDA.cs" />
-    <Compile Include="CardPrintingHelper.cs" />
+    <Compile Include="CardCenterHelper.cs" />
     <Compile Include="DepartmentDistrict.cs" />
     <Compile Include="FileList.cs" />
     <Compile Include="Flow.cs" />

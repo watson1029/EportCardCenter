@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.11.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -51,20 +54,174 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="ZWL">
+      <HintPath>..\..\lib\ZWL.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ajax\UploadFile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ajax\ApprovalComplete.ashx.cs">
+      <DependentUpon>ApprovalComplete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Commodity\GetCommodityDetal.ashx.cs">
+      <DependentUpon>GetCommodityDetal.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Commodity\GetCommodityType.ashx.cs">
+      <DependentUpon>GetCommodityType.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Commodity\SelectCardNum.ashx.cs">
+      <DependentUpon>SelectCardNum.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Commodity\VerifiCommodity.ashx.cs">
+      <DependentUpon>VerifiCommodity.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\GetFileType.ashx.cs">
+      <DependentUpon>GetFileType.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\JobDelete.ashx.cs">
+      <DependentUpon>JobDelete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\MDHeadSave.ashx.cs">
+      <DependentUpon>MDHeadSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\MDListDelete.ashx.cs">
+      <DependentUpon>MDListDelete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\MDListSave.ashx.cs">
+      <DependentUpon>MDListSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\NAHeadSave.ashx.cs">
+      <DependentUpon>NAHeadSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\NAListDelete.ashx.cs">
+      <DependentUpon>NAListDelete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\NAListSave.ashx.cs">
+      <DependentUpon>NAListSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\NAListSaveFR.ashx.cs">
+      <DependentUpon>NAListSaveFR.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\NALogicalCheckFR.ashx.cs">
+      <DependentUpon>NALogicalCheckFR.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\NALogicalCheckQT.ashx.cs">
+      <DependentUpon>NALogicalCheckQT.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\PageLogicHelper.ashx.cs">
+      <DependentUpon>PageLogicHelper.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\PayCallback.ashx.cs">
+      <DependentUpon>PayCallback.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Question.ashx.cs">
+      <DependentUpon>Question.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\RIHeadSave.ashx.cs">
+      <DependentUpon>RIHeadSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\RIListDelete.ashx.cs">
+      <DependentUpon>RIListDelete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\RIListSave.ashx.cs">
+      <DependentUpon>RIListSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\RMHeadSave.ashx.cs">
+      <DependentUpon>RMHeadSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\RMListDelete.ashx.cs">
+      <DependentUpon>RMListDelete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\RMListSave.ashx.cs">
+      <DependentUpon>RMListSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SLHeadSave.ashx.cs">
+      <DependentUpon>SLHeadSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SLListDelete.ashx.cs">
+      <DependentUpon>SLListDelete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SLListSave.ashx.cs">
+      <DependentUpon>SLListSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\UploadFile.aspx.designer.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\UUHeadSave.ashx.cs">
+      <DependentUpon>UUHeadSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\UUListDelete.ashx.cs">
+      <DependentUpon>UUListDelete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\UUListSave.ashx.cs">
+      <DependentUpon>UUListSave.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ajax\ApprovalComplete.ashx" />
+    <Content Include="Ajax\Commodity\GetCommodityDetal.ashx" />
+    <Content Include="Ajax\Commodity\GetCommodityType.ashx" />
+    <Content Include="Ajax\Commodity\SelectCardNum.ashx" />
+    <Content Include="Ajax\Commodity\VerifiCommodity.ashx" />
+    <Content Include="Ajax\GetFileType.ashx" />
+    <Content Include="Ajax\JobDelete.ashx" />
+    <Content Include="Ajax\MDHeadSave.ashx" />
+    <Content Include="Ajax\MDListDelete.ashx" />
+    <Content Include="Ajax\MDListSave.ashx" />
+    <Content Include="Ajax\NAHeadSave.ashx" />
+    <Content Include="Ajax\NAListDelete.ashx" />
+    <Content Include="Ajax\NAListSave.ashx" />
+    <Content Include="Ajax\NAListSaveFR.ashx" />
+    <Content Include="Ajax\NALogicalCheckFR.ashx" />
+    <Content Include="Ajax\NALogicalCheckQT.ashx" />
+    <Content Include="Ajax\PageLogicHelper.ashx" />
+    <Content Include="Ajax\PayCallback.ashx" />
+    <Content Include="Ajax\Question.ashx" />
+    <Content Include="Ajax\RIHeadSave.ashx" />
+    <Content Include="Ajax\RIListDelete.ashx" />
+    <Content Include="Ajax\RIListSave.ashx" />
+    <Content Include="Ajax\RMHeadSave.ashx" />
+    <Content Include="Ajax\RMListDelete.ashx" />
+    <Content Include="Ajax\RMListSave.ashx" />
+    <Content Include="Ajax\SLHeadSave.ashx" />
+    <Content Include="Ajax\SLListDelete.ashx" />
+    <Content Include="Ajax\SLListSave.ashx" />
+    <Content Include="Ajax\UUHeadSave.ashx" />
+    <Content Include="Ajax\UUListDelete.ashx" />
+    <Content Include="Ajax\UUListSave.ashx" />
+    <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\dependent\CardCenter.CommercialAffairsOracleDataAccess\CardCenter.CommercialAffairsOracleDataAccess.csproj">
+      <Project>{35253b66-7f12-4af8-9189-7c2ed6dca6d9}</Project>
+      <Name>CardCenter.CommercialAffairsOracleDataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\dependent\CardCenter.DataAccess\CardCenter.DataAccess.csproj">
+      <Project>{0d62f48e-fa6a-4b82-b528-67331b58fde7}</Project>
+      <Name>CardCenter.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\dependent\CardCenter.Entity\CardCenter.Entity.csproj">
+      <Project>{fda012d2-cacc-4bf5-b4f1-a85611c879ad}</Project>
+      <Name>CardCenter.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\dependent\CardCenter.PageBase\CardCenter.PageBase.csproj">
+      <Project>{31a3abd9-1d29-47f1-a3b2-17d25db513da}</Project>
+      <Name>CardCenter.PageBase</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

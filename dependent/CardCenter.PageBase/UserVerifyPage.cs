@@ -99,8 +99,7 @@ namespace CardCenter.PageBase
                         }
                         catch (Exception ex)
                         {
-
-                            Response.Redirect(errorUrlUser + Server.UrlEncode("转换AccessToken对像失败！"), false);
+                            Response.Redirect(errorUrlUser + Server.UrlEncode("转换AccessToken对像失败！" + ex.ToString()), false);
                             return false;
                         }
                         if (objAccessToken == null || objAccessToken.access_token == null || objAccessToken.access_token == "")
