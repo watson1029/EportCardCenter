@@ -74,6 +74,530 @@
     <Content Include="ApplyForm\SaleList.aspx" />
     <Content Include="ApplyForm\UpdateUnlock.aspx" />
     <Content Include="ApplyForm\UpdateUnlockList.aspx" />
+    <Content Include="BuildingPage.aspx" />
+    <Content Include="css\plugins\colorbox.css" />
+    <Content Include="css\plugins\colorpicker.css" />
+    <Content Include="css\plugins\fullcalendar.css" />
+    <Content Include="css\plugins\jquery.alerts.css" />
+    <Content Include="css\plugins\jquery.chosen.css" />
+    <Content Include="css\plugins\jquery.jgrowl.css" />
+    <Content Include="css\plugins\jquery.tagsinput.css" />
+    <Content Include="css\plugins\jquery.ui.autocomplete.css" />
+    <Content Include="css\plugins\jquery.ui.css" />
+    <Content Include="css\plugins\reveal.css" />
+    <Content Include="css\plugins\ui.spinner.css" />
+    <Content Include="css\plugins\uniform.tp.css" />
+    <Content Include="css\style.blueline.css" />
+    <Content Include="css\style.contrast.css" />
+    <Content Include="css\style.custombg.css" />
+    <Content Include="css\style.default.css" />
+    <Content Include="css\style.greenline.css" />
+    <Content Include="css\style.ie8.css" />
+    <Content Include="css\style.ie9.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Document.aspx" />
+    <Content Include="ErrPageCompany.aspx" />
+    <Content Include="ErrPageUser.aspx" />
+    <Content Include="Express.aspx" />
+    <Content Include="gzeport\gzeport.aspx" />
+    <Content Include="gzeport\gzeportGuide.aspx" />
+    <Content Include="gzeport\gzeportMQ.aspx" />
+    <Content Include="gzeport\gzeportTable.aspx" />
+    <Content Include="gzeport\pages\1.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\1.files\filelist.xml" />
+    <Content Include="gzeport\pages\1.files\header.html" />
+    <Content Include="gzeport\pages\1.html" />
+    <Content Include="gzeport\pages\10.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\10.files\filelist.xml" />
+    <Content Include="gzeport\pages\10.files\header.html" />
+    <Content Include="gzeport\pages\10.html" />
+    <Content Include="gzeport\pages\11.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\11.files\filelist.xml" />
+    <Content Include="gzeport\pages\11.files\header.html" />
+    <Content Include="gzeport\pages\11.html" />
+    <Content Include="gzeport\pages\12.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\12.files\filelist.xml" />
+    <Content Include="gzeport\pages\12.files\header.html" />
+    <Content Include="gzeport\pages\12.html" />
+    <Content Include="gzeport\pages\13.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\13.files\filelist.xml" />
+    <Content Include="gzeport\pages\13.files\header.html" />
+    <Content Include="gzeport\pages\13.html" />
+    <Content Include="gzeport\pages\3.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\3.files\filelist.xml" />
+    <Content Include="gzeport\pages\3.files\header.html" />
+    <Content Include="gzeport\pages\3.html" />
+    <Content Include="gzeport\pages\4.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\4.files\filelist.xml" />
+    <Content Include="gzeport\pages\4.files\header.html" />
+    <Content Include="gzeport\pages\4.html" />
+    <Content Include="gzeport\pages\5.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\5.files\filelist.xml" />
+    <Content Include="gzeport\pages\5.files\header.html" />
+    <Content Include="gzeport\pages\5.html" />
+    <Content Include="gzeport\pages\6.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\6.files\filelist.xml" />
+    <Content Include="gzeport\pages\6.files\header.html" />
+    <Content Include="gzeport\pages\6.html" />
+    <Content Include="gzeport\pages\7.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\7.files\filelist.xml" />
+    <Content Include="gzeport\pages\7.files\header.html" />
+    <Content Include="gzeport\pages\7.html" />
+    <Content Include="gzeport\pages\8.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\8.files\filelist.xml" />
+    <Content Include="gzeport\pages\8.files\header.html" />
+    <Content Include="gzeport\pages\8.html" />
+    <Content Include="gzeport\pages\9.files\colorschememapping.xml" />
+    <Content Include="gzeport\pages\9.files\filelist.xml" />
+    <Content Include="gzeport\pages\9.files\header.html" />
+    <Content Include="gzeport\pages\9.html" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\header.htm" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image001.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image002.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image003.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image004.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image005.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image006.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image007.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image008.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image009.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image010.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image011.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image012.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image013.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image014.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image015.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image016.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image017.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image018.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image019.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image020.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image021.png" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.files\image022.gif" />
+    <Content Include="gzeport\指引网页版\其他电子口岸业务卡变更操作指引\其他电子口岸业务卡变更操作指引.htm" />
+    <Content Include="gzeport\指引网页版\变更业务\变更业务指引.htm" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\header.htm" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image001.png" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image002.gif" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image003.png" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image004.gif" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image005.png" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image006.gif" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image007.png" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image008.gif" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image009.png" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image010.gif" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image011.png" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image012.gif" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image013.png" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image014.gif" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image015.png" />
+    <Content Include="gzeport\指引网页版\变更业务\法人卡变更业务操作指引.files\image016.gif" />
+    <Content Include="gzeport\指引网页版\微信上传图片指引操作指引\微信上传图片指引操作指引.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\微信上传图片指引操作指引\微信上传图片指引操作指引.files\header.htm" />
+    <Content Include="gzeport\指引网页版\微信上传图片指引操作指引\微信上传图片指引操作指引.files\image002.jpg" />
+    <Content Include="gzeport\指引网页版\微信上传图片指引操作指引\微信上传图片指引操作指引.files\image004.jpg" />
+    <Content Include="gzeport\指引网页版\微信上传图片指引操作指引\微信上传图片指引操作指引.files\image006.jpg" />
+    <Content Include="gzeport\指引网页版\微信上传图片指引操作指引\微信上传图片指引操作指引.htm" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\header.htm" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image001.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image002.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image003.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image004.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image005.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image006.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image007.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image008.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image009.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image010.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image011.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image012.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image013.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image014.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image015.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image016.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image017.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image018.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image020.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image021.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image022.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image023.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image024.gif" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image025.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.files\image027.png" />
+    <Content Include="gzeport\指引网页版\新增其他卡\新增其他卡.htm" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\header.htm" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image001.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image002.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image003.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image004.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image005.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image006.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image007.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image008.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image009.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image009.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image011.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image011.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image013.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image013.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image015.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image015.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image017.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image017.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image019.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image019.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image021.gif" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.files\image021.png" />
+    <Content Include="gzeport\指引网页版\新增法人卡\新入网新增法人卡.htm" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.files\header.htm" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.files\image001.jpg" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.files\image002.jpg" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.files\image003.jpg" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.files\image004.jpg" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.files\image005.jpg" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.files\image006.jpg" />
+    <Content Include="gzeport\指引网页版\易通关平台注册操作指引\易通关平台注册操作指引.htm" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\header.htm" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\image001.png" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\image002.gif" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\image003.png" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\image004.gif" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\image005.png" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\image006.gif" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\image007.png" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.files\image008.gif" />
+    <Content Include="gzeport\指引网页版\更新解锁业务\更新解锁业务操作指引.htm" />
+    <Content Include="gzeport\指引网页版\申请进度查询操作指引\申请进度查询操作指引.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\申请进度查询操作指引\申请进度查询操作指引.files\header.htm" />
+    <Content Include="gzeport\指引网页版\申请进度查询操作指引\申请进度查询操作指引.files\image001.jpg" />
+    <Content Include="gzeport\指引网页版\申请进度查询操作指引\申请进度查询操作指引.files\image002.jpg" />
+    <Content Include="gzeport\指引网页版\申请进度查询操作指引\申请进度查询操作指引.htm" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image001.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image001.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image002.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image003.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image003.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image004.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image005.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image005.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image006.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image007.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image007.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image008.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image009.gif" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image009.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image011.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image013.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image015.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.files\image017.png" />
+    <Content Include="gzeport\指引网页版\补办业务\补办业务指引.htm" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\header.htm" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image001.png" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image002.gif" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image003.png" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image004.gif" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image005.png" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image006.gif" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image007.png" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image008.gif" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image009.png" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image010.gif" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image011.png" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.files\image012.gif" />
+    <Content Include="gzeport\指引网页版\读卡器业务\读卡器操作指引.htm" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\filelist.xml" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\header.htm" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image001.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image002.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image003.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image004.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image005.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image006.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image007.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image008.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image009.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image010.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image011.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image012.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image013.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image014.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image015.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image016.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image017.png" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.files\image018.gif" />
+    <Content Include="gzeport\指引网页版\重制业务\重制业务指引.htm" />
+    <Content Include="images\accordinarrow.png" />
+    <Content Include="images\addfolder.png" />
+    <Content Include="images\arrow.png" />
+    <Content Include="images\blacktrans.png" />
+    <Content Include="images\bluetrans.png" />
+    <Content Include="images\btngrad.png" />
+    <Content Include="images\buttonbg3.png" />
+    <Content Include="images\buttons.png" />
+    <Content Include="images\calarrow.png" />
+    <Content Include="images\chat.png" />
+    <Content Include="images\chosen-sprite.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\colorbox\controls.png" />
+    <Content Include="images\colorbox\loading.gif" />
+    <Content Include="images\colorpicker\colorpicker_background.png" />
+    <Content Include="images\colorpicker\colorpicker_hex.png" />
+    <Content Include="images\colorpicker\colorpicker_hsb_b.png" />
+    <Content Include="images\colorpicker\colorpicker_hsb_h.png" />
+    <Content Include="images\colorpicker\colorpicker_hsb_s.png" />
+    <Content Include="images\colorpicker\colorpicker_indic.gif" />
+    <Content Include="images\colorpicker\colorpicker_overlay.png" />
+    <Content Include="images\colorpicker\colorpicker_rgb_b.png" />
+    <Content Include="images\colorpicker\colorpicker_rgb_g.png" />
+    <Content Include="images\colorpicker\colorpicker_rgb_r.png" />
+    <Content Include="images\colorpicker\colorpicker_select.gif" />
+    <Content Include="images\colorpicker\colorpicker_submit.png" />
+    <Content Include="images\customs\404.png" />
+    <Content Include="images\customs\arrow1.png" />
+    <Content Include="images\customs\arrow2.png" />
+    <Content Include="images\customs\bank.jpg" />
+    <Content Include="images\customs\error.jpg" />
+    <Content Include="images\customs\error1.jpg" />
+    <Content Include="images\customs\error2.jpg" />
+    <Content Include="images\customs\Express.jpg" />
+    <Content Include="images\customs\fee.png" />
+    <Content Include="images\customs\notice.png" />
+    <Content Include="images\customs\notice_20170228.png" />
+    <Content Include="images\customs\notice_decreasePrice20160831.png" />
+    <Content Include="images\customs\seal.png" />
+    <Content Include="images\customs\南方基地公司简介_01.gif" />
+    <Content Include="images\customs\南方基地公司简介_02.gif" />
+    <Content Include="images\customs\南方基地公司简介_03.gif" />
+    <Content Include="images\customs\南方基地公司简介_04.gif" />
+    <Content Include="images\customs\南方基地公司简介_05.jpg" />
+    <Content Include="images\customs\南方易拉宝电子版_01.jpg" />
+    <Content Include="images\customs\南方易拉宝电子版_02.jpg" />
+    <Content Include="images\customs\南方易拉宝电子版_03.jpg" />
+    <Content Include="images\customs\南方易拉宝电子版_04.jpg" />
+    <Content Include="images\customs\南方易拉宝电子版_05.jpg" />
+    <Content Include="images\customs\支付平台维护中.png" />
+    <Content Include="images\default\arrow-active.png" />
+    <Content Include="images\default\bghover.png" />
+    <Content Include="images\default\headerbg.png" />
+    <Content Include="images\default\icons_sprite.png" />
+    <Content Include="images\default\icons_sprite2.png" />
+    <Content Include="images\default\menuarrow.png" />
+    <Content Include="images\default\noise.white.png" />
+    <Content Include="images\default\notibg.png" />
+    <Content Include="images\default\searchbutton.png" />
+    <Content Include="images\default\searchcancel.png" />
+    <Content Include="images\default\topheaderbg.png" />
+    <Content Include="images\default\userinfoarrow.png" />
+    <Content Include="images\help.gif" />
+    <Content Include="images\icons\64\analytics.png" />
+    <Content Include="images\icons\64\events.png" />
+    <Content Include="images\icons\64\images.png" />
+    <Content Include="images\icons\64\settings.png" />
+    <Content Include="images\icons\64\users.png" />
+    <Content Include="images\icons\arrow.png" />
+    <Content Include="images\icons\attachment.png" />
+    <Content Include="images\icons\bar.png" />
+    <Content Include="images\icons\blogperfume\Advertisment\advertisment-32.png" />
+    <Content Include="images\icons\calendar.png" />
+    <Content Include="images\icons\call.png" />
+    <Content Include="images\icons\chart.white.png" />
+    <Content Include="images\icons\comment.png" />
+    <Content Include="images\icons\editor.png" />
+    <Content Include="images\icons\flatscreen.white.png" />
+    <Content Include="images\icons\glass.png" />
+    <Content Include="images\icons\info.png" />
+    <Content Include="images\icons\mail.png" />
+    <Content Include="images\icons\message.white.png" />
+    <Content Include="images\icons\password.png" />
+    <Content Include="images\icons\pencil.white.png" />
+    <Content Include="images\icons\settings.png" />
+    <Content Include="images\icons\speech.white.png" />
+    <Content Include="images\icons\sprites.png" />
+    <Content Include="images\icons\sprites.white.png" />
+    <Content Include="images\icons\star.png" />
+    <Content Include="images\icons\trash.png" />
+    <Content Include="images\icons\unstar.png" />
+    <Content Include="images\icons\username.png" />
+    <Content Include="images\icons\users.png" />
+    <Content Include="images\icons\widgets.png" />
+    <Content Include="images\important.gif" />
+    <Content Include="images\info.gif" />
+    <Content Include="images\kozers\thumb\0.jpg" />
+    <Content Include="images\kozers\thumb\1.jpg" />
+    <Content Include="images\kozers\thumb\2.jpg" />
+    <Content Include="images\kozers\thumb\3.jpg" />
+    <Content Include="images\kozers\thumb\4.jpg" />
+    <Content Include="images\kozers\thumb\5.jpg" />
+    <Content Include="images\kozers\thumb\6.jpg" />
+    <Content Include="images\kozers\thumb\7.jpg" />
+    <Content Include="images\kozers\thumb\8.jpg" />
+    <Content Include="images\line.ccc.png" />
+    <Content Include="images\line.dashed.png" />
+    <Content Include="images\list.png" />
+    <Content Include="images\loaders\loader1.gif" />
+    <Content Include="images\loaders\loader10.gif" />
+    <Content Include="images\loaders\loader2.gif" />
+    <Content Include="images\loaders\loader3.gif" />
+    <Content Include="images\loaders\loader4.gif" />
+    <Content Include="images\loaders\loader5.gif" />
+    <Content Include="images\loaders\loader6.gif" />
+    <Content Include="images\loaders\loader7.gif" />
+    <Content Include="images\loaders\loader8.gif" />
+    <Content Include="images\loaders\loader9.gif" />
+    <Content Include="images\mainpage\1.png" />
+    <Content Include="images\mainpage\1_1.png" />
+    <Content Include="images\mainpage\2.png" />
+    <Content Include="images\mainpage\2_1.png" />
+    <Content Include="images\mainpage\3.png" />
+    <Content Include="images\mainpage\3_1.png" />
+    <Content Include="images\mainpage\4.png" />
+    <Content Include="images\mainpage\4_1.png" />
+    <Content Include="images\mainpage\5.png" />
+    <Content Include="images\mainpage\5_1.png" />
+    <Content Include="images\mainpage\6.png" />
+    <Content Include="images\mainpage\6_1.png" />
+    <Content Include="images\mainpage\7.png" />
+    <Content Include="images\mainpage\7_1.png" />
+    <Content Include="images\mainpage\Building.png" />
+    <Content Include="images\mainpage\button.png" />
+    <Content Include="images\mainpage\button_1.png" />
+    <Content Include="images\mainpage\Guide.png" />
+    <Content Include="images\mainpage\Guide_1.png" />
+    <Content Include="images\menucollapsed.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\notifications.png" />
+    <Content Include="images\online.png" />
+    <Content Include="images\patternbg.png" />
+    <Content Include="images\prev.png" />
+    <Content Include="images\preview.png" />
+    <Content Include="images\preview\blog1.png" />
+    <Content Include="images\preview\portfolio1.png" />
+    <Content Include="images\preview\portfolio2.png" />
+    <Content Include="images\preview\preview1.png" />
+    <Content Include="images\preview\preview2.png" />
+    <Content Include="images\preview\themepixels1.jpg" />
+    <Content Include="images\progress.png" />
+    <Content Include="images\quote.png" />
+    <Content Include="images\quote2.png" />
+    <Content Include="images\search.png" />
+    <Content Include="images\selectall.png" />
+    <Content Include="images\separator.png" />
+    <Content Include="images\sliderhor.png" />
+    <Content Include="images\sliderver.png" />
+    <Content Include="images\sort_asc.png" />
+    <Content Include="images\sort_both.png" />
+    <Content Include="images\sort_desc.png" />
+    <Content Include="images\spinner.png" />
+    <Content Include="images\stepline.png" />
+    <Content Include="images\steps.png" />
+    <Content Include="images\thead.png" />
+    <Content Include="images\thumbs\avatar.png" />
+    <Content Include="images\thumbs\avatar1.png" />
+    <Content Include="images\thumbs\avatar10.png" />
+    <Content Include="images\thumbs\avatar11.png" />
+    <Content Include="images\thumbs\avatar2.png" />
+    <Content Include="images\thumbs\avatar3.png" />
+    <Content Include="images\thumbs\avatar4.png" />
+    <Content Include="images\thumbs\avatar5.png" />
+    <Content Include="images\thumbs\avatar6.png" />
+    <Content Include="images\thumbs\avatar7.png" />
+    <Content Include="images\thumbs\avatar8.png" />
+    <Content Include="images\thumbs\avatar9.png" />
+    <Content Include="images\thumbs\avatarbig.png" />
+    <Content Include="images\thumbs\image1.png" />
+    <Content Include="images\thumbs\image2.png" />
+    <Content Include="images\thumbs\image3.png" />
+    <Content Include="images\thumbs\image4.png" />
+    <Content Include="images\thumbs\image5.png" />
+    <Content Include="images\thumbs\image6.png" />
+    <Content Include="images\thumb\small\thumb1.png" />
+    <Content Include="images\thumb\small\thumb2.png" />
+    <Content Include="images\thumb\small\thumb3.png" />
+    <Content Include="images\thumb\small\thumb4.png" />
+    <Content Include="images\thumb\small\thumb5.png" />
+    <Content Include="images\thumb\xsmall\thumb1.png" />
+    <Content Include="images\thumb\xsmall\thumb2.png" />
+    <Content Include="images\thumb\xsmall\thumb3.png" />
+    <Content Include="images\thumb\xsmall\thumb4.png" />
+    <Content Include="images\thumb\xsmall\thumb5.png" />
+    <Content Include="images\thumb\xsmall\thumb6.png" />
+    <Content Include="images\thumb\xsmall\thumb7.png" />
+    <Content Include="images\thumb\xsmall\thumb8.png" />
+    <Content Include="images\titlebg.png" />
+    <Content Include="images\trash.png" />
+    <Content Include="images\uniform\bg-input-focus.png" />
+    <Content Include="images\uniform\bg-input.png" />
+    <Content Include="images\uniform\sprite.png" />
+    <Content Include="js\ajaxfileupload.js" />
+    <Content Include="js\custom\blog.js" />
+    <Content Include="js\custom\calendar.js" />
+    <Content Include="js\custom\charts.js" />
+    <Content Include="js\custom\Controller.js" />
+    <Content Include="js\custom\dashboard.js" />
+    <Content Include="js\custom\editor.js" />
+    <Content Include="js\custom\elements.js" />
+    <Content Include="js\custom\forms.js" />
+    <Content Include="js\custom\general.js" />
+    <Content Include="js\custom\index.js" />
+    <Content Include="js\custom\messages.js" />
+    <Content Include="js\custom\newsfeed.js" />
+    <Content Include="js\custom\productlist.js" />
+    <Content Include="js\custom\profile.js" />
+    <Content Include="js\custom\report.js" />
+    <Content Include="js\custom\support.js" />
+    <Content Include="js\custom\tables.js" />
+    <Content Include="js\custom\Verification.js" />
+    <Content Include="js\custom\widgets.js" />
+    <Content Include="js\plugins\charCount.js" />
+    <Content Include="js\plugins\chosen.jquery.min.js" />
+    <Content Include="js\plugins\colorpicker.js" />
+    <Content Include="js\plugins\css3-mediaqueries.js" />
+    <Content Include="js\plugins\excanvas.min.js" />
+    <Content Include="js\plugins\fullcalendar.min.js" />
+    <Content Include="js\plugins\jquery-1.5.2.min.js" />
+    <Content Include="js\plugins\jquery-1.7.min.js" />
+    <Content Include="js\plugins\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="js\plugins\jquery.alerts.js" />
+    <Content Include="js\plugins\jquery.autogrow-textarea.js" />
+    <Content Include="js\plugins\jquery.blockdialog.js" />
+    <Content Include="js\plugins\jquery.bxSlider.min.js" />
+    <Content Include="js\plugins\jquery.colorbox-min.js" />
+    <Content Include="js\plugins\jquery.cookie.js" />
+    <Content Include="js\plugins\jquery.dataTables.min.js" />
+    <Content Include="js\plugins\jquery.flot.min.js" />
+    <Content Include="js\plugins\jquery.flot.pie.js" />
+    <Content Include="js\plugins\jquery.flot.resize.min.js" />
+    <Content Include="js\plugins\jquery.flot.time.js" />
+    <Content Include="js\plugins\jquery.jgrowl.js" />
+    <Content Include="js\plugins\jquery.reveal.js" />
+    <Content Include="js\plugins\jquery.slimscroll.js" />
+    <Content Include="js\plugins\jquery.smartWizard-2.0.min.js" />
+    <Content Include="js\plugins\jquery.tagsinput.min.js" />
+    <Content Include="js\plugins\jquery.uniform.min.js" />
+    <Content Include="js\plugins\jquery.validate.min.js" />
+    <Content Include="js\plugins\tinymce\jquery.tinymce.js" />
+    <Content Include="js\plugins\ui.spinner.min.js" />
+    <Content Include="Manager\CompletePay.aspx" />
+    <Content Include="Manager\Fee.aspx" />
+    <Content Include="Manager\JobList.aspx" />
+    <Content Include="Manager\Pay.aspx" />
+    <Content Include="Manager\Search.aspx" />
+    <Content Include="Manager\SearchView.aspx" />
+    <Content Include="Manager\View.aspx" />
+    <Content Include="Notice.html" />
+    <Content Include="Print.aspx" />
+    <Content Include="Question.aspx" />
+    <Content Include="ServiceGuide.aspx" />
+    <Content Include="TestHandler.html" />
+    <Content Include="ucFooter.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -268,7 +792,154 @@
     <Compile Include="ApplyForm\UpdateUnlockList.aspx.designer.cs">
       <DependentUpon>UpdateUnlockList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="BuildingPage.aspx.cs">
+      <DependentUpon>BuildingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuildingPage.aspx.designer.cs">
+      <DependentUpon>BuildingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Document.aspx.cs">
+      <DependentUpon>Document.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Document.aspx.designer.cs">
+      <DependentUpon>Document.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrPageCompany.aspx.cs">
+      <DependentUpon>ErrPageCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrPageCompany.aspx.designer.cs">
+      <DependentUpon>ErrPageCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrPageUser.aspx.cs">
+      <DependentUpon>ErrPageUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrPageUser.aspx.designer.cs">
+      <DependentUpon>ErrPageUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Express.aspx.cs">
+      <DependentUpon>Express.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Express.aspx.designer.cs">
+      <DependentUpon>Express.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gzeport\gzeport.aspx.cs">
+      <DependentUpon>gzeport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gzeport\gzeport.aspx.designer.cs">
+      <DependentUpon>gzeport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gzeport\gzeportGuide.aspx.cs">
+      <DependentUpon>gzeportGuide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gzeport\gzeportGuide.aspx.designer.cs">
+      <DependentUpon>gzeportGuide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gzeport\gzeportMQ.aspx.cs">
+      <DependentUpon>gzeportMQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gzeport\gzeportMQ.aspx.designer.cs">
+      <DependentUpon>gzeportMQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gzeport\gzeportTable.aspx.cs">
+      <DependentUpon>gzeportTable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gzeport\gzeportTable.aspx.designer.cs">
+      <DependentUpon>gzeportTable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\CompletePay.aspx.cs">
+      <DependentUpon>CompletePay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\CompletePay.aspx.designer.cs">
+      <DependentUpon>CompletePay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Fee.aspx.cs">
+      <DependentUpon>Fee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Fee.aspx.designer.cs">
+      <DependentUpon>Fee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\JobList.aspx.cs">
+      <DependentUpon>JobList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\JobList.aspx.designer.cs">
+      <DependentUpon>JobList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Pay.aspx.cs">
+      <DependentUpon>Pay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Pay.aspx.designer.cs">
+      <DependentUpon>Pay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\SearchView.aspx.cs">
+      <DependentUpon>SearchView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\SearchView.aspx.designer.cs">
+      <DependentUpon>SearchView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\View.aspx.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\View.aspx.designer.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Print.aspx.cs">
+      <DependentUpon>Print.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Print.aspx.designer.cs">
+      <DependentUpon>Print.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Question.aspx.cs">
+      <DependentUpon>Question.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Question.aspx.designer.cs">
+      <DependentUpon>Question.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceGuide.aspx.cs">
+      <DependentUpon>ServiceGuide.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServiceGuide.aspx.designer.cs">
+      <DependentUpon>ServiceGuide.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ucFooter.ascx.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ucFooter.ascx.designer.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ajax\ApprovalComplete.ashx" />
@@ -302,6 +973,47 @@
     <Content Include="Ajax\UUHeadSave.ashx" />
     <Content Include="Ajax\UUListDelete.ashx" />
     <Content Include="Ajax\UUListSave.ashx" />
+    <Content Include="GuideFile\中国电子口岸安全数据库客户端IE设置20161011.rar" />
+    <Content Include="GuideFile\其他电子口岸业务卡变更操作指引.doc" />
+    <Content Include="GuideFile\广州关区制卡点基本情况.xls" />
+    <Content Include="GuideFile\微信上传图片指引操作指引.doc" />
+    <Content Include="GuideFile\新入网企业操作指引.doc" />
+    <Content Include="GuideFile\新增其他卡操作指引.doc" />
+    <Content Include="GuideFile\易通关平台注册操作指引.doc" />
+    <Content Include="GuideFile\更新解锁业务操作指引.doc" />
+    <Content Include="GuideFile\法人卡变更业务操作指引.doc" />
+    <Content Include="GuideFile\申请进度查询操作指引.doc" />
+    <Content Include="GuideFile\电子口岸客户端程序IE浏览器设置.doc" />
+    <Content Include="GuideFile\电子口岸客户端程序安装手册.doc" />
+    <Content Include="GuideFile\线下办理模式与线上办理模式对比.doc" />
+    <Content Include="GuideFile\补办业务操作指引.doc" />
+    <Content Include="GuideFile\读卡器操作指引.doc" />
+    <Content Include="GuideFile\重制业务操作指引.doc" />
+    <Content Include="gzeport\pages\1.files\themedata.thmx" />
+    <Content Include="gzeport\pages\10.files\themedata.thmx" />
+    <Content Include="gzeport\pages\11.files\themedata.thmx" />
+    <Content Include="gzeport\pages\12.files\themedata.thmx" />
+    <Content Include="gzeport\pages\13.files\themedata.thmx" />
+    <Content Include="gzeport\pages\2.中国电子口岸数据中心广州分中心在线制卡业务分类指引.xls" />
+    <Content Include="gzeport\pages\3.files\themedata.thmx" />
+    <Content Include="gzeport\pages\4.files\themedata.thmx" />
+    <Content Include="gzeport\pages\5.files\themedata.thmx" />
+    <Content Include="gzeport\pages\6.files\themedata.thmx" />
+    <Content Include="gzeport\pages\7.files\themedata.thmx" />
+    <Content Include="gzeport\pages\8.files\themedata.thmx" />
+    <Content Include="gzeport\pages\9.files\themedata.thmx" />
+    <Content Include="gzeport\tables\1.QP无纸化手册上线申请表_新上线空白表.doc" />
+    <Content Include="gzeport\tables\1.中国电子口岸企业情况登记表.doc" />
+    <Content Include="gzeport\tables\2.出口加工区MQ传输配置申请表_新上线空白表.doc" />
+    <Content Include="gzeport\tables\2.特殊卡类登记表【银行、领事馆、外交机构用】.doc" />
+    <Content Include="gzeport\tables\3.出口加工区MQ传输配置申请表_配置变更空白表.doc" />
+    <Content Include="gzeport\tables\3.电子口岸部门IC卡注册审批表【审批部门用】.doc" />
+    <Content Include="gzeport\tables\4.办理业务单位证明样板（通用）.doc" />
+    <Content Include="gzeport\tables\4.加工贸易联网监管电子账册MQ传输配置申请表_新上线空白表.doc" />
+    <Content Include="gzeport\tables\5.加工贸易联网监管电子账册MQ传输配置申请表_配置变更空白表.doc" />
+    <Content Include="gzeport\tables\6.快件MQ传输配置申请表_新上线空白表.doc" />
+    <Content Include="gzeport\tables\7.快件MQ传输配置申请表_配置变更空白表.doc" />
+    <Content Include="AppHandler.ashx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -327,6 +1039,9 @@
       <Project>{31a3abd9-1d29-47f1-a3b2-17d25db513da}</Project>
       <Name>CardCenter.PageBase</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UploadFile\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

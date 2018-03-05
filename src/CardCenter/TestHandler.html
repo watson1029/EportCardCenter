@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script type="text/javascript" src="js/plugins/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery-ui-1.8.16.custom.min.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery.ajax({
+                type: "POST",
+                dataType: "text",
+                url: "Ajax/Commodity/GetCommodityDetal.ashx",
+                data: "type=东方口岸",
+                success: function (msg) {
+                    alert(msg);
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrown) {
+                    jAlert("网络出错，请稍后再试" + errorThrown, "提示");
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
