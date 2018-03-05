@@ -148,7 +148,7 @@
                             <td class="title">提交日期</td>
                             <td class="content"><%= DateTime.Parse(viewDt.Tables[3].Rows[i]["SubmitDate"].ToString()).ToString("yyyy年MM月dd日 HH时mm分") %></td>
                             <td class="title">提交用户</td>
-                            <td class="content"><%= new CardPrinting.DataAccess.ManagerUser().Exists(viewDt.Tables[3].Rows[i]["SubmitUser"].ToString()) ? "工号" + new CardPrinting.DataAccess.ManagerUser().GetModel(viewDt.Tables[3].Rows[i]["SubmitUser"].ToString()).UserName : "用户" %></td>
+                            <td class="content"><%= new CardCenter.DataAccess.ManagerUser().Exists(viewDt.Tables[3].Rows[i]["SubmitUser"].ToString()) ? "工号" + new CardCenter.DataAccess.ManagerUser().GetModel(viewDt.Tables[3].Rows[i]["SubmitUser"].ToString()).UserName : "用户" %></td>
                         </tr>
                         <tr>
                             <td class="title">备注</td>

@@ -278,7 +278,7 @@
                         </table>
                     <% } %>
                     <br clear="all" />
-                    <% System.Data.DataTable dt = new CardPrinting.DataAccess.PrintList().GetList("").Tables[0]; %>
+                    <% System.Data.DataTable dt = new CardCenter.DataAccess.PrintList().GetList("").Tables[0]; %>
                     <div class="contenttitle2">
                         <h3>广州地区市属企业-审批回执打印</h3>
                     </div>
@@ -443,7 +443,7 @@
                         <% { %>
                             <% if (viewDt.Tables[1].Rows[i]["JobTypeID"].ToString() == "NA001" && bool.Parse(viewDt.Tables[0].Rows[0]["IsOnline"].ToString())) %>
                             <% { %>
-                                <% CardPrinting.Entity.NewlyAddedListFR na001 = new CardPrinting.DataAccess.NewlyAddedListFR().GetModel(viewDt.Tables[1].Rows[i]["ListID"].ToString()); %>
+                                <% CardCenter.Entity.NewlyAddedListFR na001 = new CardCenter.DataAccess.NewlyAddedListFR().GetModel(viewDt.Tables[1].Rows[i]["ListID"].ToString()); %>
                                 <table class="table">
                                     <tr>
                                         <td class="title">工单编号</td>
@@ -501,17 +501,17 @@
                                             <td class="title">法人电话</td>
                                             <td class="content"><%= na001.FRDH_QS %></td>
                                             <td class="title">企业类型</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.QYLX_QS) ? "" : new CardPrinting.DataAccess.Para_QYLX().GetModel(na001.QYLX_QS).QYLX_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.QYLX_QS) ? "" : new CardCenter.DataAccess.Para_QYLX().GetModel(na001.QYLX_QS).QYLX_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">注册资金（万）</td>
                                             <td class="content"><%= na001.ZCZJ_QS %></td>
                                             <td class="title">注册资金币值</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.ZCZJBZ_QS) ? "" : new CardPrinting.DataAccess.Para_BZ().GetModel(na001.ZCZJBZ_QS).BZ_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.ZCZJBZ_QS) ? "" : new CardCenter.DataAccess.Para_BZ().GetModel(na001.ZCZJBZ_QS).BZ_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">证件类型</td>
-                                            <td class="content"><%= na001.ZJLX_QS_QS == null ? "" : new CardPrinting.DataAccess.Para_IdentificationType().GetModel(Convert.ToInt32(na001.ZJLX_QS_QS)).Name %></td>
+                                            <td class="content"><%= na001.ZJLX_QS_QS == null ? "" : new CardCenter.DataAccess.Para_IdentificationType().GetModel(Convert.ToInt32(na001.ZJLX_QS_QS)).Name %></td>
                                             <td class="title">证件号码</td>
                                             <td class="content"><%= na001.ZJHM_QS %></td>
                                         </tr>
@@ -519,7 +519,7 @@
                                             <td class="title">营业期限</td>
                                             <td class="content"><%= na001.YYQX_QS %></td>
                                             <td class="title">法人类型</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.FRLX_QS) ? "" : new CardPrinting.DataAccess.Para_FRLX().GetModel(na001.FRLX_QS).FRLX_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.FRLX_QS) ? "" : new CardCenter.DataAccess.Para_FRLX().GetModel(na001.FRLX_QS).FRLX_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">邮政编码</td>
@@ -605,11 +605,11 @@
                                             <td class="title">法人电话</td>
                                             <td class="content"><%= na001.FRDH_HG %></td>
                                             <td class="title">报关类别</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.BGLB_HG) ? "" : new CardPrinting.DataAccess.Para_BGLB().GetModel(na001.BGLB_HG).BGLB_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.BGLB_HG) ? "" : new CardCenter.DataAccess.Para_BGLB().GetModel(na001.BGLB_HG).BGLB_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">证件类别</td>
-                                            <td class="content"><%= na001.ZJLX_HG == null ? "" : new CardPrinting.DataAccess.Para_IdentificationType().GetModel(Convert.ToInt32(na001.ZJLX_HG)).Name %></td>
+                                            <td class="content"><%= na001.ZJLX_HG == null ? "" : new CardCenter.DataAccess.Para_IdentificationType().GetModel(Convert.ToInt32(na001.ZJLX_HG)).Name %></td>
                                             <td class="title">法人证件号码</td>
                                             <td class="content"><%= na001.FRZJHM_HG %></td>
                                         </tr>
@@ -623,7 +623,7 @@
                                             <td class="title">注册资本（万）</td>
                                             <td class="content"><%= na001.ZCZB_HG %></td>
                                             <td class="title">注册资本币制</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.ZCZBBZ_HG) ? "" : new CardPrinting.DataAccess.Para_BZ().GetModel(na001.ZCZBBZ_HG).BZ_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.ZCZBBZ_HG) ? "" : new CardCenter.DataAccess.Para_BZ().GetModel(na001.ZCZBBZ_HG).BZ_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">总经理</td>
@@ -641,7 +641,7 @@
                                             <td class="title">税务登记号</td>
                                             <td class="content"><%= na001.SWDJH_HG %></td>
                                             <td class="title">行业种类</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.HYZL_HG) ? "" : new CardPrinting.DataAccess.Para_HYZL().GetModel(na001.HYZL_HG).HYZL_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.HYZL_HG) ? "" : new CardCenter.DataAccess.Para_HYZL().GetModel(na001.HYZL_HG).HYZL_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">免税额（万美元）</td>
@@ -659,13 +659,13 @@
                                             <td class="title">投资总额（万）</td>
                                             <td class="content"><%= na001.TZZE_HG %></td>
                                             <td class="title">投资总额币制</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.BZ_HG) ? "" : new CardPrinting.DataAccess.Para_BZ().GetModel(na001.BZ_HG).BZ_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.BZ_HG) ? "" : new CardCenter.DataAccess.Para_BZ().GetModel(na001.BZ_HG).BZ_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">到位资本总额（万美元）</td>
                                             <td class="content"><%= na001.DWZBZE_HG %></td>
                                             <td class="title">企业生产类型</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.QYSCLX_HG) ? "" : new CardPrinting.DataAccess.Para_SCFS().GetModel(na001.QYSCLX_HG).SCFS_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.QYSCLX_HG) ? "" : new CardCenter.DataAccess.Para_SCFS().GetModel(na001.QYSCLX_HG).SCFS_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">内销比率(%)</td>
@@ -751,13 +751,13 @@
                                             <td class="title">投资总额（万)</td>
                                             <td class="content"><%= na001.TZZE_WJM %></td>
                                             <td class="title">投资币制</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.TZBZ_WJM) ? "" : new CardPrinting.DataAccess.Para_BZ().GetModel(na001.TZBZ_WJM).BZ_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.TZBZ_WJM) ? "" : new CardCenter.DataAccess.Para_BZ().GetModel(na001.TZBZ_WJM).BZ_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">注册资本（万）</td>
                                             <td class="content"><%= na001.ZCZB_WJM %></td>
                                             <td class="title">注册资本币制</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.ZCZBBZ_WJM) ? "" : new CardPrinting.DataAccess.Para_BZ().GetModel(na001.ZCZBBZ_WJM).BZ_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.ZCZBBZ_WJM) ? "" : new CardCenter.DataAccess.Para_BZ().GetModel(na001.ZCZBBZ_WJM).BZ_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">备案登记表编号</td>
@@ -823,19 +823,19 @@
                                             <td class="title">经营范围</td>
                                             <td class="content"><%= na001.JYFW_WH %></td>
                                             <td class="title">行业代码</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.HYDM_WH) ? "" : new CardPrinting.DataAccess.Para_HYDM().GetModel(na001.HYDM_WH).HYDM_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.HYDM_WH) ? "" : new CardCenter.DataAccess.Para_HYDM().GetModel(na001.HYDM_WH).HYDM_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">企业邮编</td>
                                             <td class="content"><%= na001.QYYB_WH %></td>
                                             <td class="title">企业性质</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.QYXZ_WH) ? "" : new CardPrinting.DataAccess.Para_QYXZ().GetModel(na001.QYXZ_WH).QYXZ_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.QYXZ_WH) ? "" : new CardCenter.DataAccess.Para_QYXZ().GetModel(na001.QYXZ_WH).QYXZ_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">人民币注册资金（万）</td>
                                             <td class="content"><%= na001.RMBZCZJ_WH %></td>
                                             <td class="title">外币注册币种</td>
-                                            <td class="content"><%= string.IsNullOrEmpty(na001.WBZCBZ_WH) ? "" : new CardPrinting.DataAccess.Para_BZ().GetModel(na001.WBZCBZ_WH).BZ_Name %></td>
+                                            <td class="content"><%= string.IsNullOrEmpty(na001.WBZCBZ_WH) ? "" : new CardCenter.DataAccess.Para_BZ().GetModel(na001.WBZCBZ_WH).BZ_Name %></td>
                                         </tr>
                                         <tr>
                                             <td class="title">外币注册资金（万）</td>
@@ -926,7 +926,7 @@
                             <td class="title">提交日期</td>
                             <td class="content"><%= DateTime.Parse(viewDt.Tables[3].Rows[i]["SubmitDate"].ToString()).ToString("yyyy年MM月dd日 HH时mm分") %></td>
                             <td class="title">提交用户</td>
-                            <td class="content"><%= LoginUserInfo.companyId == viewDt.Tables[3].Rows[i]["SubmitUser"].ToString() ? viewDt.Tables[0].Rows[0]["EnterpriseName"].ToString() : "工号" + new CardPrinting.DataAccess.ManagerUser().GetModel(viewDt.Tables[3].Rows[i]["SubmitUser"].ToString()).UserName %></td>
+                            <td class="content"><%= LoginUserInfo.companyId == viewDt.Tables[3].Rows[i]["SubmitUser"].ToString() ? viewDt.Tables[0].Rows[0]["EnterpriseName"].ToString() : "工号" + new CardCenter.DataAccess.ManagerUser().GetModel(viewDt.Tables[3].Rows[i]["SubmitUser"].ToString()).UserName %></td>
                         </tr>
                         <tr>
                             <td class="title">备注</td>

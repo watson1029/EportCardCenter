@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.11.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
@@ -51,20 +54,126 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="ZWL">
+      <HintPath>..\..\lib\ZWL.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ajax\Authorize\AuthorizeJudge.ashx.cs">
+      <DependentUpon>AuthorizeJudge.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Authorize\RoleFunction.ashx.cs">
+      <DependentUpon>RoleFunction.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Authorize\RoleMenu.ashx.cs">
+      <DependentUpon>RoleMenu.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Authorize\UserRole.ashx.cs">
+      <DependentUpon>UserRole.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\BindBar.ashx.cs">
+      <DependentUpon>BindBar.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\BusLogic.ashx.cs">
+      <DependentUpon>BusLogic.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\ChangeStatus.ashx.cs">
+      <DependentUpon>ChangeStatus.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Dept.ashx.cs">
+      <DependentUpon>Dept.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\FlowInput.ashx.cs">
+      <DependentUpon>FlowInput.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\GetCompanyName.ashx.cs">
+      <DependentUpon>GetCompanyName.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\GetCopyTxt.ashx.cs">
+      <DependentUpon>GetCopyTxt.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\GetJobType.ashx.cs">
+      <DependentUpon>GetJobType.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\GetSaleList.ashx.cs">
+      <DependentUpon>GetSaleList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\GetSaleNum.ashx.cs">
+      <DependentUpon>GetSaleNum.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\HandleList.ashx.cs">
+      <DependentUpon>HandleList.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\ListControl.ashx.cs">
+      <DependentUpon>ListControl.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Login.ashx.cs">
+      <DependentUpon>Login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\RoleOperation.ashx.cs">
+      <DependentUpon>RoleOperation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SaveSaleBinding.ashx.cs">
+      <DependentUpon>SaveSaleBinding.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SaveStock.ashx.cs">
+      <DependentUpon>SaveStock.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SaveUser.ashx.cs">
+      <DependentUpon>SaveUser.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SpotInput.ashx.cs">
+      <DependentUpon>SpotInput.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Ajax\Authorize\AuthorizeJudge.ashx" />
+    <Content Include="Ajax\Authorize\RoleFunction.ashx" />
+    <Content Include="Ajax\Authorize\RoleMenu.ashx" />
+    <Content Include="Ajax\Authorize\UserRole.ashx" />
+    <Content Include="Ajax\BindBar.ashx" />
+    <Content Include="Ajax\BusLogic.ashx" />
+    <Content Include="Ajax\ChangeStatus.ashx" />
+    <Content Include="Ajax\Dept.ashx" />
+    <Content Include="Ajax\FlowInput.ashx" />
+    <Content Include="Ajax\GetCompanyName.ashx" />
+    <Content Include="Ajax\GetCopyTxt.ashx" />
+    <Content Include="Ajax\GetJobType.ashx" />
+    <Content Include="Ajax\GetSaleList.ashx" />
+    <Content Include="Ajax\GetSaleNum.ashx" />
+    <Content Include="Ajax\HandleList.ashx" />
+    <Content Include="Ajax\ListControl.ashx" />
+    <Content Include="Ajax\Login.ashx" />
+    <Content Include="Ajax\RoleOperation.ashx" />
+    <Content Include="Ajax\SaveSaleBinding.ashx" />
+    <Content Include="Ajax\SaveStock.ashx" />
+    <Content Include="Ajax\SaveUser.ashx" />
+    <Content Include="Ajax\SpotInput.ashx" />
+    <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\dependent\CardCenter.DataAccess\CardCenter.DataAccess.csproj">
+      <Project>{0d62f48e-fa6a-4b82-b528-67331b58fde7}</Project>
+      <Name>CardCenter.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\dependent\CardCenter.Entity\CardCenter.Entity.csproj">
+      <Project>{fda012d2-cacc-4bf5-b4f1-a85611c879ad}</Project>
+      <Name>CardCenter.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\dependent\CardCenter.PageBase\CardCenter.PageBase.csproj">
+      <Project>{31a3abd9-1d29-47f1-a3b2-17d25db513da}</Project>
+      <Name>CardCenter.PageBase</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
