@@ -42,5 +42,15 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\dependent\CardCenter.DataAccess\CardCenter.DataAccess.csproj">
+      <Project>{0d62f48e-fa6a-4b82-b528-67331b58fde7}</Project>
+      <Name>CardCenter.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\dependent\CardCenter.Entity\CardCenter.Entity.csproj">
+      <Project>{fda012d2-cacc-4bf5-b4f1-a85611c879ad}</Project>
+      <Name>CardCenter.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
