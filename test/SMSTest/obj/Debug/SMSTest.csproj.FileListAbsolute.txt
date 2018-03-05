@@ -1,6 +1,0 @@
-D:\GitHub\EportCardCenter\test\SMSTest\bin\Debug\SMSTest.exe
-D:\GitHub\EportCardCenter\test\SMSTest\bin\Debug\SMSTest.pdb
-D:\GitHub\EportCardCenter\test\SMSTest\obj\Debug\SMSTest.csproj.CoreCompileInputs.cache
-D:\GitHub\EportCardCenter\test\SMSTest\obj\Debug\SMSTest.exe
-D:\GitHub\EportCardCenter\test\SMSTest\obj\Debug\SMSTest.pdb
-D:\GitHub\EportCardCenter\test\SMSTest\obj\Debug\SMSTest.csprojResolveAssemblyReference.cache
