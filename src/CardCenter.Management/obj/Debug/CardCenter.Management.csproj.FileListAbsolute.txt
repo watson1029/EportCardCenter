@@ -1,10 +1,6 @@
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.Management.dll.config
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.Management.dll
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.Management.pdb
-D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.csprojResolveAssemblyReference.cache
-D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.csproj.CoreCompileInputs.cache
-D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.dll
-D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.pdb
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.DataAccess.dll
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.Entity.dll
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.PageBase.dll
@@ -18,3 +14,7 @@ D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.Entity.pdb
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\CardCenter.PageBase.pdb
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\Newtonsoft.Json.xml
 D:\GitHub\EportCardCenter\src\CardCenter.Management\bin\NPOI.xml
+D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.csprojResolveAssemblyReference.cache
+D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.csproj.CoreCompileInputs.cache
+D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.dll
+D:\GitHub\EportCardCenter\src\CardCenter.Management\obj\Debug\CardCenter.Management.pdb
