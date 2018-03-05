@@ -11,7 +11,7 @@ namespace CardCenter.PageBase
         {
             if (!Verify)
             {
-                Response.Redirect("/CardManager/Default.aspx", false);
+                Response.Redirect("/CardCenter.Management/Default.aspx", false);
             }
             base.OnLoad(e);
         }

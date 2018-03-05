@@ -45,8 +45,8 @@ namespace CardCenter.PageBase
         /// </summary>
         private bool login()
         {
-            string errorUrlUser = @"/CardPrinting/ErrPageUser.aspx?ErrorCode=";
-            string errorUrlCompany = @"/CardPrinting/ErrPageCompany.aspx?ErrorCode=";
+            string errorUrlUser = @"/CardCenter/ErrPageUser.aspx?ErrorCode=";
+            string errorUrlCompany = @"/CardCenter/ErrPageCompany.aspx?ErrorCode=";
             string ErrPageCode = "";
             string companyErr = string.Empty;
             string userErr = string.Empty;
