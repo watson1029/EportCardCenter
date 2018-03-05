@@ -60,6 +60,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ajax\UploadFile.aspx" />
+    <Content Include="ApplyForm\Introduce.html" />
+    <Content Include="ApplyForm\Modify.aspx" />
+    <Content Include="ApplyForm\ModifyList.aspx" />
+    <Content Include="ApplyForm\NewlyAdded.aspx" />
+    <Content Include="ApplyForm\NewlyAddedListFR.aspx" />
+    <Content Include="ApplyForm\NewlyAddedListQT.aspx" />
+    <Content Include="ApplyForm\ReIssue.aspx" />
+    <Content Include="ApplyForm\ReIssueList.aspx" />
+    <Content Include="ApplyForm\ReMake.aspx" />
+    <Content Include="ApplyForm\ReMakeList.aspx" />
+    <Content Include="ApplyForm\Sale.aspx" />
+    <Content Include="ApplyForm\SaleList.aspx" />
+    <Content Include="ApplyForm\UpdateUnlock.aspx" />
+    <Content Include="ApplyForm\UpdateUnlockList.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +176,97 @@
     </Compile>
     <Compile Include="Ajax\UUListSave.ashx.cs">
       <DependentUpon>UUListSave.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\Modify.aspx.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\Modify.aspx.designer.cs">
+      <DependentUpon>Modify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\ModifyList.aspx.cs">
+      <DependentUpon>ModifyList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\ModifyList.aspx.designer.cs">
+      <DependentUpon>ModifyList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\NewlyAdded.aspx.cs">
+      <DependentUpon>NewlyAdded.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\NewlyAdded.aspx.designer.cs">
+      <DependentUpon>NewlyAdded.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\NewlyAddedListFR.aspx.cs">
+      <DependentUpon>NewlyAddedListFR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\NewlyAddedListFR.aspx.designer.cs">
+      <DependentUpon>NewlyAddedListFR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\NewlyAddedListQT.aspx.cs">
+      <DependentUpon>NewlyAddedListQT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\NewlyAddedListQT.aspx.designer.cs">
+      <DependentUpon>NewlyAddedListQT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\ReIssue.aspx.cs">
+      <DependentUpon>ReIssue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\ReIssue.aspx.designer.cs">
+      <DependentUpon>ReIssue.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\ReIssueList.aspx.cs">
+      <DependentUpon>ReIssueList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\ReIssueList.aspx.designer.cs">
+      <DependentUpon>ReIssueList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\ReMake.aspx.cs">
+      <DependentUpon>ReMake.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\ReMake.aspx.designer.cs">
+      <DependentUpon>ReMake.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\ReMakeList.aspx.cs">
+      <DependentUpon>ReMakeList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\ReMakeList.aspx.designer.cs">
+      <DependentUpon>ReMakeList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\Sale.aspx.cs">
+      <DependentUpon>Sale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\Sale.aspx.designer.cs">
+      <DependentUpon>Sale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\SaleList.aspx.cs">
+      <DependentUpon>SaleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\SaleList.aspx.designer.cs">
+      <DependentUpon>SaleList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\UpdateUnlock.aspx.cs">
+      <DependentUpon>UpdateUnlock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\UpdateUnlock.aspx.designer.cs">
+      <DependentUpon>UpdateUnlock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForm\UpdateUnlockList.aspx.cs">
+      <DependentUpon>UpdateUnlockList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyForm\UpdateUnlockList.aspx.designer.cs">
+      <DependentUpon>UpdateUnlockList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
