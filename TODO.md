@@ -6,7 +6,7 @@ Up to Now
 2018-03-19
 - [ ] 统计日期显示中文
 - [ ] bug“现场收卡”和“快递收卡”只能选择其中一项
-- [ ] 工单页面打开较慢，rebuild table JobInfo index.
+- [x] 工单页面打开较慢，rebuild table JobInfo index.
 
 2018-03-05
 - [ ] 账号授权使用短信功能
