@@ -22,5 +22,5 @@
 ---
 ## 部署
 ### IIS
-### DataBase.MsSql2008R2
+### MsSql2008R2
 ---
