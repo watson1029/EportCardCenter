@@ -62,12 +62,12 @@
             cursor: pointer;
         }
 
-        .checker {
+        .checker,.radio {
             cursor:pointer;
             margin-left:10px;
         }
 
-        input[type=checkbox] {
+        input[type=checkbox],input[type=radio] {
             cursor:pointer;
         }
 
@@ -205,6 +205,22 @@
                 else {
                     jQuery(this).parents("td").find("span").css("color", "");
                 }
+            });
+
+            jQuery("#functionform input[type=radio]").change(function () {
+                jQuery("#functionform input[name=" + jQuery(this).attr("name") + "]").each(function () {
+                    var data;
+                    if (jQuery("#hd" + jQuery(this).attr("id")).val() == "Ture")
+                        data = true;
+                    else
+                        data = false;
+                    if (data != jQuery(this).is(":checked")) {
+                        jQuery(this).parents("td").find("span").css("color", "red");
+                    }
+                    else {
+                        jQuery(this).parents("td").find("span").css("color", "");
+                    }
+                });
             });
         });
 
@@ -376,24 +392,30 @@
             $("#applyfrominfo3").slideToggle();
         }
         function spanCheck(spanobj) {
-            obj = jQuery(spanobj).prev().find("input[type=checkbox]");
+            obj = jQuery(spanobj).prev().find("input");
             if (obj.is(":disabled") == false) {
-                if (obj.is(":checked") == true)
-                    $.uniform.update(obj.attr("checked", false));
+                if (obj.is(":checked") == true) {
+                    obj.attr("checked", false);
+                    $.uniform.update();
+                }
+                else {
+                    obj.attr("checked", true);
+                    $.uniform.update();
+                }
+            }
+            jQuery("#functionform input[name=" + obj.attr("name") + "]").each(function () {
+                var data;
+                if (jQuery("#hd" + jQuery(this).attr("id")).val() == "Ture")
+                    data = true;
                 else
-                    $.uniform.update(obj.attr("checked", true));
-            }
-            var data;
-            if (jQuery("#hd" + obj.attr("id")).val() == "True")
-                data = true;
-            else
-                data = false;
-            if (data != obj.is(":checked")) {
-                jQuery(spanobj).css("color", "red");
-            }
-            else {
-                jQuery(spanobj).css("color", "");
-            }
+                    data = false;
+                if (data != jQuery(this).is(":checked")) {
+                    jQuery(this).parents("td").find("span").css("color", "red");
+                }
+                else {
+                    jQuery(this).parents("td").find("span").css("color", "");
+                }
+            });
         }
 
         function Submit() {
@@ -586,7 +608,14 @@
                                     <td class="con1"><%= string.IsNullOrEmpty(handleDr["OpeartionTime"].ToString()) ? string.Empty : DateTime.Parse(handleDr["OpeartionTime"].ToString()).ToString("yyyy年MM月dd日 HH时mm分") %></td>
                                     <td class="con0"><input type="text" class="longinput" id="rm_<%= handleDr["Guid"] %>" value="<%= handleDr["Remark"] %>" <%= AuthorizeJudge(handleDr["disabled"].ToString(), handleDr["FunctionID"].ToString()) %> /></td>
                                     <td class="con1" style="text-align:left;">
-                                        <input type="checkbox" id="cb_<%= handleDr["Guid"] %>"<%= AuthorizeJudge(handleDr["disabled"].ToString(), handleDr["FunctionID"].ToString()) %> <%= SetCheckStatus(handleDr["IsChecked"].ToString()) %>/><span style="cursor:pointer;" onclick="spanCheck(this)" class="opeartionname"><%= handleDr["OpeartionName"] %></span>
+                                        <% if(handleDr["type"].ToString() == "radio") %>
+                                        <% { %>
+                                            <input type="radio" name="<%= handleDr["FunctionID"] %>" id="cb_<%= handleDr["Guid"] %>"<%= AuthorizeJudge(handleDr["disabled"].ToString(), handleDr["FunctionID"].ToString()) %> <%= SetCheckStatus(handleDr["IsChecked"].ToString()) %>/><span style="cursor:pointer;" onclick="spanCheck(this)" class="opeartionname"><%= handleDr["OpeartionName"] %></span>
+                                        <% } %>
+                                        <% else %>
+                                        <% { %>
+                                            <input type="checkbox" id="cb_<%= handleDr["Guid"] %>"<%= AuthorizeJudge(handleDr["disabled"].ToString(), handleDr["FunctionID"].ToString()) %> <%= SetCheckStatus(handleDr["IsChecked"].ToString()) %>/><span style="cursor:pointer;" onclick="spanCheck(this)" class="opeartionname"><%= handleDr["OpeartionName"] %></span>
+                                        <% } %>
                                         <%= handleDr["OpeartionName"].Equals("前三录入") ? "<button style='float:right;' onclick='SendQS(this)'>发送审核前三短信</button>" : string.Empty %>
                                         <%= handleDr["OpeartionName"].Equals("现场发放") && viewDt.Tables[0].Rows[0]["JobType"].Equals("SL") ? "<button style='float:right;' onclick='SendDKQ(this)'>发送领取读卡器短信</button>" : string.Empty %>
                                     </td>
